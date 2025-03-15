@@ -30,6 +30,20 @@
         </dependency>
     </dependencies>
 
+         </dependencies>
+	
+	<distributionManagement>
+		 <snapshotRepository>
+		    <id>number_game-03</id>
+		    <url>http://3.92.56.166:8081/nexus/content/repositories/number_game-03/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>number_game-01</id>
+		    <url>http://3.92.56.166:8081/nexus/content/repositories/number_game-01/</url>
+		</repository>
+  	</distributionManagement>
+
     <build>
         <plugins>
             <!-- Compiler Plugin -->
