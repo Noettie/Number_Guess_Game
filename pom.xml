@@ -6,7 +6,7 @@
 
     <groupId>com.studentapp</groupId>
     <artifactId>NumberGuessGame</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>war</packaging>
 
     <name>Number Guessing Game</name>
@@ -29,6 +29,18 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+	
+	<distributionManagement>
+		 <snapshotRepository>
+		    <id>number_game-03</id>
+		    <url>http://3.92.56.166:8081/nexus/content/repositories/number_game-03/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>number_game-release</id>
+		    <url>http://3.92.56.166:8081/nexus/content/repositories/number_game-release/</url>
+		</repository>
+  	</distributionManagement>
 
     <build>
         <plugins>
