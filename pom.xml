@@ -37,8 +37,8 @@
 		 </snapshotRepository>
 		
 		<repository>
-		    <id>number_game-01</id>
-		    <url>http://3.92.56.166:8081/nexus/content/repositories/number_game-01/</url>
+		    <id>number_game-release</id>
+		    <url>http://3.92.56.166:8081/nexus/content/repositories/number_game-release/</url>
 		</repository>
   	</distributionManagement>
 
